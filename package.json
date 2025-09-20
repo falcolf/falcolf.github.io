@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://falcolf.github.io/",
+  "homepage": "https://parthagarwal.com",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
