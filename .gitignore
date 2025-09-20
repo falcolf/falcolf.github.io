@@ -1,3 +1,4 @@
 # Any files with sensitive information
 node_modules/
+node_modules/.cache/
 dist/
