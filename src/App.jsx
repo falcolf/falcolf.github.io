@@ -217,7 +217,7 @@ export default function App() {
           {/* Project: TechInsights Pro */}
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition transform hover:-translate-y-2">
             <h4 className="text-xl font-semibold text-green-400 mb-2">
-              Tech-Insights Pro
+              TechInsights Pro
             </h4>
             <p className="text-gray-400 text-sm mb-4">
               An intelligent tool that scores and segments device users and
