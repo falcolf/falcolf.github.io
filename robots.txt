@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://parthagarwal.com/sitemap.xml
