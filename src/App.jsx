@@ -60,7 +60,7 @@ export default function App() {
           {/* Buttons */}
           <div className="flex gap-4">
             <a
-              href="https://drive.google.com/file/d/1oJeBlGOUBbG1fMMII9yJQV83-V4Lb-JI/view"
+              href="https://drive.google.com/file/d/1s7TA31BZHV3Z9DgNTHnhEmshWi8DIJ9Q/view?usp=sharing"
               target="_blank"
               className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-xl shadow-lg transition"
             >
@@ -193,8 +193,8 @@ export default function App() {
               Data Genie
             </h4>
             <p className="text-gray-400 text-sm mb-4">
-              Agentic AI based context-aware chatbot powered with Claude Models
-              to aid users dig into data deeper and faster.
+              Agentic AI based context-aware chatbot powered via Claude Models
+              to help users dig into data deeper and faster providing insights.
             </p>
             <div className="flex flex-wrap gap-2 text-xs">
               <span className="bg-gray-700 px-2 py-1 rounded-full">GenAI</span>
@@ -206,22 +206,21 @@ export default function App() {
                 Streamlit
               </span>
             </div>
-            <a
+            {/* <a
               href="#"
               className="mt-4 inline-block text-sm text-blue-300 hover:underline"
             >
               View Project →
-            </a>
+            </a> */}
           </div>
 
-          {/* Project: TechInsights Pro */}
+          {/* Project: Device Vista */}
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition transform hover:-translate-y-2">
             <h4 className="text-xl font-semibold text-green-400 mb-2">
-              TechInsights Pro
+              DeviceVista
             </h4>
             <p className="text-gray-400 text-sm mb-4">
-              An intelligent tool that scores and segments device users and
-              generates recommendations given their interaction.
+              An AI-driven analytics tool that segments device users and delivers personalized recommendations.
             </p>
             <div className="flex flex-wrap gap-2 text-xs">
               <span className="bg-gray-700 px-2 py-1 rounded-full">
@@ -233,12 +232,12 @@ export default function App() {
               </span>
               <span className="bg-gray-700 px-2 py-1 rounded-full">Python</span>
             </div>
-            <a
+            {/* <a
               href="#"
               className="mt-4 inline-block text-sm text-blue-300 hover:underline"
             >
               View Project →
-            </a>
+            </a> */}
           </div>
 
           {/* Project: BugLink */}
@@ -247,30 +246,28 @@ export default function App() {
               Bug Link
             </h4>
             <p className="text-gray-400 text-sm mb-4">
-              AI-powered suite of tools enabling engineers to resolve bugs and
-              enhance products with greater speed and efficiency.
+              AI-powered tool that identifies similar bugs and helps engineers resolve bugs faster decreasing resolution time.
             </p>
             <div className="flex flex-wrap gap-2 text-xs">
               <span className="bg-gray-700 px-2 py-1 rounded-full">NLP</span>
               <span className="bg-gray-700 px-2 py-1 rounded-full">Python</span>
               <span className="bg-gray-700 px-2 py-1 rounded-full">DevOps</span>
             </div>
-            <a
+            {/* <a
               href="#"
               className="mt-4 inline-block text-sm text-blue-300 hover:underline"
             >
               View Project →
-            </a>
+            </a> */}
           </div>
 
-          {/* Project: Enviro Flow */}
+          {/* Project: CarrierIQ */}
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition transform hover:-translate-y-2">
             <h4 className="text-xl font-semibold text-green-400 mb-2">
-              EnvrioFlow
+              CarrierIQ
             </h4>
             <p className="text-gray-400 text-sm mb-4">
-              An intelligent tool that simulates various scenarios in a supply
-              chain to identify the optimal settings for maximizing profit.
+              Gurobi-powered system that determines the best carrier mix for multimodal freight networks.
             </p>
             <div className="flex flex-wrap gap-2 text-xs">
               <span className="bg-gray-700 px-2 py-1 rounded-full">
@@ -281,12 +278,12 @@ export default function App() {
               </span>
               <span className="bg-gray-700 px-2 py-1 rounded-full">Python</span>
             </div>
-            <a
+            {/* <a
               href="#"
               className="mt-4 inline-block text-sm text-blue-300 hover:underline"
             >
               View Project →
-            </a>
+            </a> */}
           </div>
 
           {/* Project: Stegancryption */}
@@ -300,20 +297,51 @@ export default function App() {
             </p>
             <div className="flex flex-wrap gap-2 text-xs">
               <span className="bg-gray-700 px-2 py-1 rounded-full">
+                Python
+              </span>
+              <span className="bg-gray-700 px-2 py-1 rounded-full">
                 Computer Vision
               </span>
               <span className="bg-gray-700 px-2 py-1 rounded-full">
-                Encryption Techniques
+                Encryption
               </span>
-              <span className="bg-gray-700 px-2 py-1 rounded-full">AI</span>
             </div>
-            <a
+            {/* <a
               href="#"
               className="mt-4 inline-block text-sm text-blue-300 hover:underline"
             >
               View Project →
-            </a>
+            </a> */}
           </div>
+
+          {/* Project: LogoSense */}
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition transform hover:-translate-y-2">
+            <h4 className="text-xl font-semibold text-green-400 mb-2">
+              LogoSense
+            </h4>
+            <p className="text-gray-400 text-sm mb-4">
+              OpenCV-based tool that detects brand logos in video frames and computes visual exposure metrics.
+            </p>
+            <div className="flex flex-wrap gap-2 text-xs">
+              <span className="bg-gray-700 px-2 py-1 rounded-full">
+                Python
+              </span>
+              <span className="bg-gray-700 px-2 py-1 rounded-full">
+                Computer Vision
+              </span>
+              <span className="bg-gray-700 px-2 py-1 rounded-full">
+                YOLO
+              </span>
+            </div>
+            {/* <a
+              href="#"
+              className="mt-4 inline-block text-sm text-blue-300 hover:underline"
+            >
+              View Project →
+            </a> */}
+          </div>
+
+
         </div>
       </section>
 
